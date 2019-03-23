@@ -19,6 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title - Devops-TEST`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('Devops-T');
+    expect(app.title).toEqual('Devops-TEST');
   });
 });
